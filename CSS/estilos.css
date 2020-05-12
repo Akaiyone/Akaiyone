@@ -1,0 +1,52 @@
+body{
+    background-image
+  :url(https://i.pinimg.com/736x/ab/84/06/ab840650dfa92d5547217bf4eadf93a3.jpg);
+  background-size: 300vh 100vh;
+  height:100vh;
+  background-repeat:no-repeat;
+  }
+  
+  .menu{
+    vertical-align: bottom;
+  }
+  .menu li{
+  list-style:none;
+    
+  }
+  
+  .menu ul{
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .site-subtitle{
+    text-align:center;
+  }
+  .site-title{
+   text-align:center;
+    color:yellow;
+    text-shadow: 4px 5px black;
+    font-family:arial;
+    font-size:50px;
+    
+  }
+  .mensagem{
+    text-align:center;
+  }
+  
+  a{
+    color:yellow;
+   text-decoration:none;
+    font-family:arial;
+    font-size:15px
+  }
+  
+  a:hover{
+    width: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size:30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px white;
+    
+  }
