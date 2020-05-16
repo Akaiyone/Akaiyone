@@ -1,0 +1,120 @@
+/* soft reset do CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image:url('../img/burakrole.png');
+  background-size: auto 100vh;
+  height:100vh;
+  font-family:'Source Code Pro',cursive;
+  color:green;
+  }
+  /*Se a tela tiver pelo menos 400px vai carregar esses estilos*/
+  @media (min-width:400px) {
+  body{
+  font-size:18px;
+  }
+  }
+  header{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    background-image: url('../img/degradeazul.jpg');
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+  }
+  .menu a:hover{
+    text-shadow:1px 1px white;
+  }
+  .menu a{
+    color:rgb(0, 162, 255);
+    display: block;
+   padding: 10px 20px;
+  }
+  .menu li{
+  list-style:none;
+  }
+  .menu ul{
+    display:flex;
+    justify-content: space-around;
+  }
+  .site-subtitle{
+    text-align:center;
+    color:rgba(69, 75, 74, 0.924);
+    font-family: 'Press Start 2P', cursive;
+    font-size:14px;
+    text-shadow:1px 1px rgba(255, 255, 255, 0.561);
+    line-height: 2.4em;
+  }
+  .site-title{
+   text-align:center;
+    color:rgb(107, 137, 144);
+    font-size:4em;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .site-title:hover{
+    text-shadow:4px 5px rgba(41, 39, 39, 0.986);
+  }
+  .site-subtile:hover{
+  text-shadow:rgb(30, 176, 212);
+  }
+  a{
+    color:rgb(114, 174, 223);
+   text-decoration:none;
+  } 
+  a:hover{
+    text-decoration:none;  
+  }
+  .Experiencia {
+    padding: 2em;
+  }
+  @media (min-width: 560px){
+    .Experiencia .grid {
+      grid-template-columns: 240px 240px;
+    }
+  }
+  @media (min-width: 880px){
+    .Experiencia .grid {
+      grid-template-columns: repeat(3, 250px);
+      align-content: center;
+      justify-content: center;
+    }
+  }
+  .Experiencia figure{
+    text-align: center;
+  }
+  .Experiencia h2 {
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    margin-bottom: 2em;
+    text-align: center;
+ 
+  }
+  .img-Experiencia {
+    height:100px;
+    width:100px;
+  }
+  .Experiencia .grid {
+    display: grid;
+    gap: 4em;
+  }
+  .contato {
+    background-size: auto 100vh;
+    height:100vh;
+    
+  }
+  .contato h2 {
+  font-family:'Press Start 2P', cursive;
+  color:gray;
+  text-shadow:1px 2px rgb(151, 140, 140);
+  text-align:center
+  
+  }
